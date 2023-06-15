@@ -25,7 +25,7 @@ echo -e "\e[36m>>>>>>>>>>Install Nodejs Dependencies<<<<<<<\e[0m
 npm install
 
 echo -e "\e[36m>>>>>>>>>>Install Redis repos<<<<<<<\e[0m
-cp /home/centos/roboshop-shell/.service /etc/systemd/system/user.service
+cp /home/centos/roboshop-shell/user.service /etc/systemd/system/user.service
 
 echo -e "\e[36m>>>>>>>>>>Start User service<<<<<<<\e[0m
 systemctl daemon-reload
